@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            max-width: 600px;
+            min-height: 600px;
+            margin: 0 auto;
+            position: relative;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        canvas {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+</div>
+<script src="lib/require.js" data-main="./main.js"></script>
+<script>
+    init();
+    function init() {
+        document.querySelector('.container').style.height = document.body.offsetHeight;
+    }
+</script>
+</body>
+</html>
