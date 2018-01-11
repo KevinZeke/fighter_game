@@ -158,10 +158,6 @@ render.addTop('clearAll', () => {
     })
     .open();
 
-console.log(render);
-
-
-
 
 
 
