@@ -1,0 +1,5 @@
+# fighter_game
+基于typescript的canvas的战机游戏
+
+# 结构
+src文件存放typescript源代码，release文件夹存放由ts编译器编译完成的浏览器可执行js文件
